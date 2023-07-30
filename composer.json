@@ -19,7 +19,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git@github.com/harness-software/carbon-fields"
+            "url": "git@github.com/harness-software/carbon-fields.git"
         }
     ],
     "autoload": {
@@ -31,5 +31,10 @@
         "php": ">=5.3",
         "composer/installers": "^1.0|^2.0",
         "htmlburger/carbon-fields": "dev-fix/multiselect-nullable-selected"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
